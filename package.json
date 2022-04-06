@@ -1,0 +1,27 @@
+{
+  "name": "hash-to-hex",
+  "description": "Technical example of a CLI fetch to hexadecimal.",
+  "version": "1.0.0",
+  "main": "./build/cli.js",
+  "bin": {
+    "convert": "./build/cli.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/yargs": "^17.0.10",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-fetch": "^3.2.3",
+    "yargs": "^17.4.0"
+  },
+  "keywords": [
+    "cli",
+    "typescript"
+  ]
+}
